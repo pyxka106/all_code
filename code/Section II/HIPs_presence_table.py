@@ -13,7 +13,7 @@ for file in files: ## file is single HIPs subject
     subject = file.split('.')[0]
     print(subject)
 
-    df = pd.read_csv(f'/Users/jingyun/Documents/hips_normalized/{file}', sep='\t')
+    df = pd.read_csv(f'/hips_normalized/{file}', sep='\t')
     df = df[df['v_gene'].str.contains('N') == False]
     df = df[df['j_gene'].str.contains('N') == False]
     df = df[df['v_gene'].str.contains('OR') == False]
@@ -35,4 +35,4 @@ for file in files: ## file is single HIPs subject
     seq_df = seq_df.merge(all_df, how='right')
     seq_df.iloc[:, 3:] = seq_df.iloc[:, 3:].fillna(0).astype(int)
     # print(seq_df)
-seq_df.to_csv(f'/Users/jingyun/Documents/genetics/hla_ms_specific_seqs_ifn_gla/single_hla_dpb104/hips_presence_table.csv', sep='\t', index=False)
+seq_df.to_csv(f'/hips_presence_table.csv', sep='\t', index=False)
