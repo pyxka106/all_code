@@ -9,7 +9,7 @@ def myfunc(a,b,c,d):
 hla_df = pd.read_csv('/top_hlas.csv', sep='\t')
 hla_list = hla_df.HLA.values.tolist()
 
-hla_pheno = pd.read_csv('/meta_data//hips_hla_typing.csv', sep='\t')
+hla_pheno = pd.read_csv('/meta_data/hips_hla_typing.csv', sep='\t')
 
 seq_df = pd.read_csv('/hips_presence_table.csv', sep='\t')
 for hla in hla_list:
