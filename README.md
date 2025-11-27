@@ -16,7 +16,7 @@ To explore potential antigen specification, AlphaFold structural modeling was ap
 
 ## HLA-DRB1*15-MS associated TCR sequences
 1. Productive TCRβ sequences observed in at least two MS-affected individuals were tested for association using Fisher’s exact test on a 2 × 2 contingency table summarizing presence/absence across MS and healthy twins. Sequences with P < 0.05 were retained as candidates.
-2. Candidate sequences were then evaluated in an independent cohort of 623 HLA-typed individuals (Emerson et al., 2016). Analyses were restricted to HLA-DRB1*15–positive subjects, and the same 2 × 2 Fisher test was applied, using a stricter threshold of P < 0.01.
+2. Candidate sequences were then evaluated in an independent cohort of 623 HLA-typed individuals (Emerson et al., 2016). Analyses were restricted to HLA-DRB1*15–positive subjects, and the same 2 × 2 Fisher test was applied, using a stricter threshold of P < 0.001.
 
 ## Amino acid distribution
 ## Atchley facorts matrix, clustering and quantification
