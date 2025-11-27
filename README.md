@@ -19,5 +19,12 @@ To explore potential antigen specification, AlphaFold structural modeling was ap
 2. Candidate sequences were then evaluated in an independent cohort of 623 HLA-typed individuals (Emerson et al., 2016). Analyses were restricted to HLA-DRB1*15–positive subjects, and the same 2 × 2 Fisher test was applied, using a stricter threshold of P < 0.001.
 
 ## Amino acid distribution
+We normalized sequencing depth by selecting 50,000 productive TCRβ rearrangements per sample, sampled at random with productive frequency as the selection weight. The codes of amino acid enrichment pattern were adapted from the publicly available scripts provided by Textor et al. (2023), which implements positional amino acid enrichment profiling for large TCR repertoires comparing the amino acid distributions between HD and MS at that position using chi-square test.
+
 ## Atchley facorts matrix, clustering and quantification
+1. For each CDR3β amino acid sequence, the first four and last four residues—corresponding to germline-encoded TRBV and TRBJ segments—were removed. The remaining amino acids were encoded using the five Atchley factors, generating a biochemical feature matrix for each sequence.
+2. The atchley factors matrix was reduced by principal component analysis (PCA), and the reduced results were clustered using DBSCAN.
+
 ## AlphaFold modeling prediction
+1. To obtain paired TCRαβ sequences for structural modeling, we queried an available single-cell TCR sequencing database and retrieved all TCRα chains that corresponded to the TRBV19*01/TRBJ02-01*01 CDR3β sequences. These α-chains were matched to our HD-associated β-chains based on identical TRBV and TRBJ gene usage.
+2. Python software to set up and run the TCR-specialized AlphaFold pipeline from Bradley (2023) and to parse TCR:pMHC ternary structures is available in the TCRdock github repository (https://github.com/phbradley/TCRdock).
