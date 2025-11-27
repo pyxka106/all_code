@@ -3,4 +3,4 @@ One of the genetic risk factors of multiple sclerosis (MS) is well known as HLA 
 Within the TRBV19*01/TRBJ02-01*01 subset, we observed a robust and reproducible CDR3β signature characterized by aspartic acid (D) at position 6 and arginine (R) at position 7, respectively. With biochemical properties and DBSCAN clustering we also defined DRSS as a distinct motif pattern enriched in HD. GLIPH analysis independently confirmed preferential DRSS motif occurrence in healthy donors.
 To explore potential antigen specification, AlphaFold structural modeling was applied to viral epitopes. A single EBV-derived peptide showed consistently higher predicted binding to DRSS-bearing TCRs, whereas no viral epitopes preferentially bound MS-associated sequences. Together, these findings identify complementary MS- and HD-associated TCRβ signatures that likely reflect distinct immunological histories and HLA-driven selection pressures.
 ## Basic Information -- Figure 1
-
+![MS twins](./plots/Figure 1.PNG)
