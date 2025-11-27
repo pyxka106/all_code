@@ -12,7 +12,7 @@ To explore potential antigen specification, AlphaFold structural modeling was ap
 1. TCRβ repertoire diversity and clonality were quantified using the Simpson diversity index.
 2. TCRβ sequence generation probabilities (Pgene) were estimated using the OLGA (Optimized Likelihood estimate of immunoGlobulin Amino-acid sequences) algorithm implemented via the tcrdist3 framework.
 3. Vβ gene usage frequencies were greately influenced by HLA genes. Distinct HLA loci exhibit characteristic V-gene usage biases.
-4. Repertoire sharing was assessed by counting the number of exactly matching productive TCRβ rearrangements between each sample pair. 
+4. Identical sequences were assessed by counting the number of exactly matching productive TCRβ rearrangements between each sample pair. 
 
 ## HLA-DRB1*15-MS associated TCR sequences
 1. Productive TCRβ sequences observed in at least two MS-affected individuals were tested for association using Fisher’s exact test on a 2 × 2 contingency table summarizing presence/absence across MS and healthy twins. Sequences with P < 0.05 were retained as candidates.
