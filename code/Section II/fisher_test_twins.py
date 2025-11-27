@@ -25,7 +25,7 @@ subject_list = subject_df.subject_id.values.tolist()
 hla_df = hla_df[hla_df['subject_id'].isin(subject_list)]
 
 for file in files:
-    print(file)
+    print(file) ## file id single v gene segment
     df1 = pd.read_csv(file, sep='\t')
 
     for hla in hla_list:
