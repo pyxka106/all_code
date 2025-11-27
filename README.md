@@ -9,4 +9,8 @@ To explore potential antigen specification, AlphaFold structural modeling was ap
 </p>
 
 ## Clonality, generation probability and v gene usage frequency
-
+## Identical TCR sequences vs. identical HLA genes
+## HLA-DRB1*15-MS associated TCR sequences
+## Amino acid distribution
+## Atchley facorts matrix, clustering and quantification
+## AlphaFold modeling prediction
