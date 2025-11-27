@@ -5,7 +5,7 @@ To explore potential antigen specification, AlphaFold structural modeling was ap
 ## Basic Information
 ### MS twins & Validation cohorts -- propensity score matching
 <p align="center">
-  <img src="plots/Figure 1.PNG" width=500 title="MS twins & validation cohorts">
+  <img src="plots/basic_info.PNG" width=500 title="MS twins & validation cohorts">
 </p>
 
 ## Clonality, generation probability and v gene usage frequency
