@@ -28,3 +28,7 @@ We normalized sequencing depth by selecting 50,000 productive TCRβ rearrangemen
 ## AlphaFold modeling prediction
 1. To obtain paired TCRαβ sequences for structural modeling, we queried an available single-cell TCR sequencing database and retrieved all TCRα chains that corresponded to the TRBV19\*01/TRBJ02-01\*01 CDR3β sequences. These α-chains were matched to our HD-associated β-chains based on identical TRBV and TRBJ gene usage.
 2. Python software to set up and run the TCR-specialized AlphaFold pipeline from Bradley (2023) and to parse TCR:pMHC ternary structures is available in the TCRdock github repository (https://github.com/phbradley/TCRdock).
+
+## EBV specificity quantification and CMV comparison
+1. match HD-EBV potential pattern to an independent EBV status-known cohort.
+2. explore the distribution between meatched TCRs and total productive rearrangment.
