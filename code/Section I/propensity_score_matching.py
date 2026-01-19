@@ -40,7 +40,7 @@ for ms_dataset in ms_datasets:
         psm.logistic_ps(balance=False)
 
         # Perform nearest neighbor matching
-        psm.knn_matched(matcher='propensity_logit', replacement=False, caliper=0.2)
+        psm.kdtree_matched(matcher='propensity_logit', replacement=False, caliper=0.2)
 
         matched_data = psm.df_matched
         test_df = pd.DataFrame(matched_data.groupby('MS_status').mean(numeric_only=True))
